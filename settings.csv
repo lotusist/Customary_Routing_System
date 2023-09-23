@@ -1,0 +1,12 @@
+datafd,./data
+tempfd,./tempgrid
+outfd,./grid
+minlat,31
+maxlat,39
+minlon,124
+maxlon,132
+gridsize,2000
+gridtime,300
+minsog,5
+maxsog,25
+cores,120
