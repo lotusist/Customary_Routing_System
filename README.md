@@ -3,14 +3,14 @@
 - 참여 인원 및 기간
     - 8명 (Project Manager, Data Engineer, UX/UI 담당)
     - 2022.08 ~ 2023.03
-- 데이터
+- 데이터 (비공개)
     - AIS, LTE-M, VPASS 선박 항적 데이터 (위치 시계열 데이터)
-    - 해역별 수위 데이터 (시계열 데이터)
-    - 육지 및 해안선 위치 데이터
+    - 해역별 수위 데이터 (시계열 데이터) (S-104 Tidal Information for Surface Navigation Product by International Hydrographic Organization)
+    - 육지 및 해안선 위치 데이터 (해양수산부)
     - 기타 지도 데이터 (Google Openstreet Map)
 - 과업 목표
     - 관습항로 생성 모듈 구현: 해양 환경, 기존 항적 데이터 등을 종합적으로 고려하여 사용자(선박)에 특화된 추천 항로 계산
-    - 관습항로 조회 모듈 구현: 주어진 항로와 선박 특성, 환경 조건별로 안전성과 운행 효율성을 고려한 추천 항로 산출
+    - 관습항로 조회 모듈 구현: 주어진 항로와 선박 특성, 환경 조건별로 안전성과 운행 효율성을 고려한 추천 항로 실시간 산출
 - 사용 기술
     - Server OS: CentOS
     - DBMS: Tmax Tibero, MySQL
